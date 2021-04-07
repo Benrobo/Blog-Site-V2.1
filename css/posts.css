@@ -2,11 +2,13 @@
 @import url(./variables.css);
 
 
+
 .posts-container{
     position: relative;
     top:10px;
     width:100%;
-    height:100vh;
+    height:auto;
+    box-shadow: 0px 0px 20px #0e0d0d1c;
 }
 
 .posts-content{
@@ -17,17 +19,17 @@
     grid-template-areas: "main aside";
     grid-template-rows: repeat(100px, auto);
     grid-gap: 20px;
+    padding: 12px;
+    background:#20202b;
 }
 .posts-content .posts-main{
     width:95%;
-    height:100vh;
     grid-area: main;
+    border-right: 2px solid #2a2a36;
 }
 
 .posts-content .posts-main .posts-contents{
     border-radius: 20px;
-    background: var(--custom-dark-color);
-    box-shadow: 0px 0px 20px #0e0d0d1c;
     color:#fff;
     padding:25px;
 }
@@ -169,19 +171,20 @@
     width:100%;
     height:100vh;
     grid-area: aside;
+    padding: 15px;
 }
 
 .posts-content .posts-aside .newsletter-cont{
     border-radius: 10px;
-    background: var(--custom-dark-color);
-    box-shadow: 0px 0px 20px #0e0d0d1c;
+    box-shadow: 0px 0px 2px #0e0d0da2;
     color:#fff;
     padding:15px;
+    background: #2a2a36;
 }
 .posts-content .posts-aside .newsletter-cont .inp{
     outline: var(--custom-dark-color) !important;
     border: var(--custom-dark-color) !important;
-    background: var(--average-dark-color);
+    background: var(--custom-dark-color);
     width:100%;
 }
 .posts-content .posts-aside .newsletter-cont .btn{
@@ -197,9 +200,10 @@
 /* categories container */
 .posts-content .posts-aside .posts-categorie-cont{
     border-radius: 10px;
-    background: var(--custom-dark-color);
-    box-shadow: 0px 0px 20px #0e0d0d1c;
+    box-shadow: 0px 0px 2px #0e0d0da2;
     color:#fff;
+    padding:15px;
+    background: #2a2a36;
     padding:17px;
     height:auto;
 }
