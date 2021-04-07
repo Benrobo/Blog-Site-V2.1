@@ -105,7 +105,6 @@ a {
   border-radius: 30px;
 }
 
-<<<<<<< HEAD
 .container-column .sidebar-footer .socials {
   display: flex;
   flex-direction: column;
@@ -117,7 +116,7 @@ a {
 }
 .container-column .sidebar-footer .socials a {
   padding: 10px;
-=======
+}
 .sidebar-column hr {
   background-color: #777;
   margin: 0px auto;
@@ -177,7 +176,6 @@ a {
 
 
 .sidebar-column .sidebar-footer .socials a {
->>>>>>> a511276f27c968d98408680f44b2cc47ae7e8af5
   color: #ccc;
   text-decoration: none;
   font-size: 15px !important;
