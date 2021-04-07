@@ -19,7 +19,6 @@
     grid-template-areas: "main aside";
     grid-template-rows: repeat(100px, auto);
     grid-gap: 20px;
-    padding: 12px;
     background:#20202b;
 }
 .posts-content .posts-main{
@@ -117,9 +116,6 @@
     font-weight:700;
     font-size:25px;
 }
-.posts-content .posts-main .next-post-cont .box-1{
-
-}
 
 
 
@@ -132,14 +128,12 @@
 
 /* abvout the author container */
 .posts-content .posts-main .about-author{
-    margin:0px auto;
     width:100%;
     position:relative;
     text-align:center;
-    padding:20px;
+    padding:10px;
     background: var(--custom-dark-color);
     color:#fff;
-    border-radius: 20px;
 }
 
 .posts-content .posts-main .about-author img{
