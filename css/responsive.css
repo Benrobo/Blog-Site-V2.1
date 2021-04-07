@@ -72,6 +72,12 @@
   .container-column .contact-cont .form-cont {
     width: 80%;
   }
+
+  /* posts page */
+  .posts-content {
+    grid-template-columns: 1fr;
+    grid-template-areas: "main" "aside";
+  }
 }
 
 /* iphone 8,6,7,+ */
@@ -80,8 +86,6 @@
     /* background: hotpink !important; */
   }
 
-<<<<<<< HEAD
-=======
   .container-column {
     width: 100%;
     height: 100vh;
@@ -104,14 +108,12 @@
   .sidebar-column .sidebar-main {
     height: 55vh;
   }
-.sidebar-column .sidebar-footer {
-    height:25vh;
-}
-  .sidebar-column .sidebar-main .content{
-    height:50vh;
+  .sidebar-column .sidebar-footer {
+    height: 25vh;
   }
-
->>>>>>> a511276f27c968d98408680f44b2cc47ae7e8af5
+  .sidebar-column .sidebar-main .content {
+    height: 50vh;
+  }
   /* right navbar */
   .right-sidebar-column {
     width: 0px;
@@ -173,11 +175,36 @@
   .container-column .contact-cont .form-cont {
     width: 100%;
   }
+
+  /* posts page */
+  .posts-content {
+    grid-template-columns: 1fr;
+    grid-template-areas: "main" "aside";
+  }
+  .posts-content .posts-main {
+    width: 100%;
+    grid-area: main;
+    border-right: none;
+  }
+  /* posts share container */
+  .posts-content .posts-main .posts-contents .post-share {
+    margin: 0px;
+    text-align: center;
+  }
+  .posts-content .posts-main .posts-contents .post-share .share-cont {
+    margin-top: 10px;
+    margin: 0px;
+    text-align: start;
+    color: #ccc;
+    font-size: 10px;
+  }
+  .posts-content .posts-main .next-post-cont .box {
+    width: 100%;
+    height: 250px;
+  }
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 1280px) {
-<<<<<<< HEAD
-=======
   .sidebar-column .first-top-box .top-head {
     display: none;
   }
@@ -187,10 +214,9 @@
   .sidebar-column .sidebar-main {
     height: 65vh;
   }
-    .sidebar-column .sidebar-main .sidebar-footer {
+  .sidebar-column .sidebar-main .sidebar-footer {
     height: 24vh;
   }
->>>>>>> a511276f27c968d98408680f44b2cc47ae7e8af5
   .main-column .portfolio-area .services .content .services-box-cont .box {
     width: 300px;
   }
