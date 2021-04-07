@@ -187,10 +187,13 @@
     padding:17px;
     height:auto;
 }
-
+.posts-content .posts-aside .posts-categorie-cont .cat-cont .cats{
+    font-size: 12px;
+}
 .posts-content .posts-aside .posts-categorie-cont .cat-cont .cats .cat-badge{
     background: var(--average-dark-color);
     float: right;
     padding:6px 10px;
     border-radius: 50%;
+    font-size: 12px;
 }
