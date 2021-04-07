@@ -677,3 +677,9 @@ transition:.3s;
 .right-sidebar-column .navigation-links li a .navbar-icons:hover{
   color:#777;
 }
+
+
+
+.footer{
+  background:red;
+}
