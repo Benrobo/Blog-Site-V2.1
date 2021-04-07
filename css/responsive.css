@@ -78,6 +78,21 @@
     grid-template-columns: 1fr;
     grid-template-areas: "main" "aside";
   }
+
+  /* aside cont */
+  .posts-content .posts-aside .content {
+    display: flex;
+  }
+  .posts-content .posts-aside .newsletter-cont {
+    width: 45%;
+    margin: 10px auto;
+  }
+  /* categories container */
+  .posts-content .posts-aside .posts-categorie-cont {
+    width: 45%;
+    margin: 10px auto;
+    margin-top: 0px;
+  }
 }
 
 /* iphone 8,6,7,+ */
@@ -201,6 +216,9 @@
   .posts-content .posts-main .next-post-cont .box {
     width: 100%;
     height: 250px;
+  }
+  .posts-content .posts-main .about-author .author-cont p {
+    font-size: 15px;
   }
 }
 
